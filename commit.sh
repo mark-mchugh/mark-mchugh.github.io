@@ -1,8 +1,14 @@
 #!/bin/sh
 
 clear
-echo "Adding all, commiting and pushing to Github\n\n"
 
-git add --all; 			  echo "\n"
-git commit -m "Initial commit";   echo "\n"
-git push -u origin master;	  echo "\n"
+echo "Adding all"
+git add --all; 			 
+
+echo "\nCommiting"
+git commit -m "Initial commit";   
+
+echo "\nPushing to Github"
+git push -u origin master;	  
+
+echo "\n"
