@@ -2,13 +2,19 @@
 
 clear
 
-echo "Adding all"
+echo "--------------------------"
+echo "-- Adding all           --"
+echo "--------------------------"
 git add --all; 			 
 
-echo "\nCommiting"
+echo "\n------------------------"
+echo   "-- Commiting         --"
+echo   "-----------------------"
 git commit -m "Initial commit";   
 
-echo "\nPushing to Github"
+echo "\n-----------------------"
+echo   "-- Pushing to Github -- "
+echo   "-----------------------"
 git push -u origin master;	  
 
 echo "\n"
