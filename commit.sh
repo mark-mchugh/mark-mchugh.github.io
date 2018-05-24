@@ -7,7 +7,7 @@ echo   "-- Adding all         --"
 echo   "------------------------"
 git add --all; 			 
 
-echo "\n------------------------"
+echo "\n-----------------------"
 echo   "-- Commiting         --"
 echo   "-----------------------"
 git commit -m "Initial commit";   
